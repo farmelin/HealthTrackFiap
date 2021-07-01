@@ -1,0 +1,51 @@
+/*Chamada das fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body._bgc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: #f5f3f4;
+}
+
+div._center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__1 {
+    font-weight: 600;
+}
+
+h1.head_principal {
+    margin: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.header__1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: #d13a3f;
+    /*background-color: #b1363a;*/
+}
+
+.header__2 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: #da595b;
+}
+
+.style_button__w {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: #d3d3d3;
+}

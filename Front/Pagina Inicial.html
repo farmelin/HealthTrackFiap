@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+        integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+        crossorigin="anonymous" />
+
+    <title>Health Track - Login</title>
+</head>
+
+<body class="_bgc">
+    <!-- hearder da página -->
+    <div class="container-fluid">
+        <!-- início da linha com 12 colunas -->
+        <div class="row header__1">
+            <div class="dropdown col-2 col-sm-2 col-md-2 _center">
+                <a class="btn btn-lg dropdown-toggle" role="button" id="menu1" data-toggle="dropdown">
+                    <i class="fas fa-bars fa-lg"></i>
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                    <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="./CadastroInicial.html">Novo Usuário</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-8 col-sm-8 col-md-8 _center">
+                <h1 class="head_principal">Bem Vindo ao Health Track</h1>
+            </div>
+            <div class="col-2 col-sm-2 col-md-2"></div>
+        </div>
+    </div>
+    <br>
+    <div>
+        <form class="col-12 col-sm-12 col-md-12" id="formulario" method="POST">
+            <div class="col-10 offset-1">
+                <div>
+                    <label for="user">E-mail do usuário:</label>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <input class="form-control" type="email" id="user" value="pedor.silva@ig.com.br" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 offset-1">
+                <div>
+                    <label for="password">Senha:</label>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <input class="form-control" type="email" id="password" value="*********" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 offset-1">
+                <div>
+                    <input type="checkbox" name="login">
+                    <label for="login" class="ms-2">Lembrar-me</label>
+                </div>
+            </div>
+            <br>
+            <br>
+            <a class="style_button__w font-weight-bold btn col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 width-100% p-2"
+                href="./InformacoesPessoais.html" role="button">Logar</a>
+        </form>
+    </div>
+
+    <script src="./js/app.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+        integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+        crossorigin="anonymous"></script>
+    <!-- <br>
+    <br>
+    <div>
+        <footer>
+            <p>Desnecessário</p>
+        </footer>
+    </div> -->
+</body>
